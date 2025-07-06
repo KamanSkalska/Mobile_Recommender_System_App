@@ -112,13 +112,13 @@ class _FormPageOneState extends State<FormPageOne> {
         padding: const EdgeInsets.all(16.0),
         child: Column(
           children: [
-            const SizedBox(height: 100),
+            const SizedBox(height: 60),
             const Text(
               'To better understand your needs and support your growth, please complete the additional fields for article recommendation:',
               style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
               textAlign: TextAlign.center,
             ),
-            const SizedBox(height: 100),
+            const SizedBox(height: 60),
             buildDropdownQuestion(
               question: 'What type of music do you enjoy the most?',
               value: selectedMusic,

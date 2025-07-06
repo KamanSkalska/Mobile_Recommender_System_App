@@ -74,7 +74,7 @@ class _FormPageFiveState extends State<FormPageFive> {
               MainAxisAlignment.center, // Center items vertically
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            const SizedBox(height: 100),
+            const SizedBox(height: 60),
             const Text(
               'What are you interested in?',
               style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),

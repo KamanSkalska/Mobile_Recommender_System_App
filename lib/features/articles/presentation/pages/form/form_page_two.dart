@@ -71,13 +71,13 @@ class _FormPageTwoState extends State<FormPageTwo> {
               MainAxisAlignment.center, // Center items vertically
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            const SizedBox(height: 100),
+            const SizedBox(height: 60),
             const Text(
               'Are you.... ?',
               style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
               textAlign: TextAlign.center,
             ),
-            const SizedBox(height: 70),
+            const SizedBox(height: 50),
             const SizedBox(height: 16),
             Wrap(
               spacing: 10,
